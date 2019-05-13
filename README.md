@@ -9,13 +9,13 @@
 This project contains the steps necessary to use the Avimesa Device Cloud system targeting Node.js developers by providing examples for both a Device client to produce data and an application to consume data.
 
 You will be using the following resources in this Guide:
-- to sign up for a subscription, the Avimesa website (https://avimesa.com)
-- to provision and configure devices, the Avimesa Toolkit application (https://app.avimesa.com)
-- to consume data, the Group API Example applications (https://github.com/Avimesa/examples-nodejs-group-api-amqp) 
+- to sign up for a subscription, the [Avimesa website](https://avimesa.com)
+- to provision and configure devices, the [Avimesa Toolkit application](https://app.avimesa.com)
+- to consume data, the [Group API Example applications](https://github.com/Avimesa/examples-nodejs-group-api-amqp) 
 - to produce data, the Virtual Device Client:
-    - Node.js version, for ARMv7 or x86_64 (https://github.com/Avimesa/virtual-device-client-nodejs) 
-    - CLI version for x86_64 (https://github.com/Avimesa/virtual-device-client-x86-64)
-    - CLI version for ARMv7 (https://github.com/Avimesa/virtual-device-client-ARMv7)
+    - [Node.js version, for ARMv7 or x86_64](https://github.com/Avimesa/virtual-device-client-nodejs) 
+    - [CLI version for x86_64](https://github.com/Avimesa/virtual-device-client-x86-64)
+    - [CLI version for ARMv7](https://github.com/Avimesa/virtual-device-client-ARMv7)
 
 <a id="toc"></a>
 ## Table of Contents
@@ -56,7 +56,7 @@ To use the Avimesa Device Cloud, you need to sign up for a subscription [here](h
 
 Once you've signed up using an email address, you'll be sent your **API Key** and **API Password** which are required to enable access through a sample application.
 
-The **API Key** and **API Password** are also available when logged into the the [Avimesa Toolkit](https://app.avimesa.com) under **Account > Settings**
+The **API Key** and **API Password** are also available when logged into the [Avimesa Toolkit](https://app.avimesa.com) under **Account > Settings**
 
 
 
