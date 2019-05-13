@@ -1,5 +1,5 @@
 # User Guide for Node.js Developers (Alpha)
-*last updated 2019-Apr-10*
+*last updated 2019-May-13*
 
 
 
@@ -52,7 +52,7 @@ This User Guide will show you how to:
 <a id="2.-subscription"></a>
 ## 2. Avimesa Subscription
 
-To use the Avimesa Device Cloud, you need to sign up for a subscription [here](https://avimesa.com/device-cloud/).
+To use the Avimesa Device Cloud, you need to sign up for a subscription [here](https://avimesa.com/pricing/).
 
 Once you've signed up using an email address, you'll be sent your **API Key** and **API Password** which are required to enable access through a sample application.
 
@@ -76,7 +76,7 @@ cd examples-nodejs-group-api-amqp
 npm install
 ``` 
 
-There are several examples in this repo to explore, we wil be using the `queue-subscriber` example, which by default will consume data from the `raw` queue.
+There are several examples in this repo to explore. We will be using the `queue-subscriber` example, which by default will consume data from the `raw` queue.
 
 First, we need to set the **API Key** and **API Password** by editing the `queue-subscriber/index.js` file, and updating the following lines:
 
@@ -101,14 +101,14 @@ You should simply have a blocking process in the terminal that is waiting to pri
 <a id="4.-add-device"></a>
 ## 4. Add a Device Using the Toolkit
 
-At this point, we have a sample 'application' that is listening for messages, we want to now make a Device that can produce messages.  
+At this point we have a sample 'application' that is listening for messages. We will now make a Device that can produce messages.  
 
 - Signed into your account at app.avimesa.com, click on **[Your Group Name] > Add Device**
 - Press the **Generate ID** button to generate a random Device ID, which is ideal for a Virtual Device.
 - Add the optional **Name** and **Location** for your own tracking means.
 - Click on **Add Device** to provision a new Device.
 
-You will be provided with a **Authentication Key**, make note of this for later when we use it with the Virtual Device Client.
+You will be provided with an **Authentication Key** so please make note of this for later when we use it with the Virtual Device Client.
 
 
 
@@ -119,11 +119,11 @@ You will be provided with a **Authentication Key**, make note of this for later 
 <a id="5.-config-device"></a>
 ## 5. Configure Device Using the Toolkit
 
-At this point, we have a 'brainless' Device runtime hosted in the Device Cloud.  We're going to upload a Script and Config for this device.
+At this point, we have a 'brainless' Device runtime hosted in the Device Cloud.  Now we'll upload a Script and Config for this device.
 
 When you cloned the `examples-nodejs-group-api-amqp` repository, you got a Script and Config that can be used for this demo, located at `examples-nodejs-group-api-amqp/files`
 
-- Signed into you account at app.avimesa.com, click on **[Group Name] >> View Devices**
+- Signed into your account at app.avimesa.com, click on **[Group Name] >> View Devices**
 - Find the Device in the list, and click on **Configure**
 - Click on **Upload Script**, and browse to `examples-nodejs-group-api-amqp/files/script.js`
 - Click on **Upload Config**, and browse to `examples-nodejs-group-api-amqp/files/config.js`
@@ -147,7 +147,7 @@ function avmsaMain(){
 <a id="6.-virtual-device"></a>
 ## 6. Use the Virtual Device Client
 
-At this point, the Device Cloud is ready to be used, and an application is waiting for data.  We have two options, both require a Linux based host (e.g. Debian, CentOS, RHEL, Raspbian).
+The Device Cloud is now ready to be used and an application is waiting for data.  We have two options, both require a Linux based host (e.g. Debian, CentOS, RHEL, Raspbian).
 
 **Node.js Virtual Device Client**
 
